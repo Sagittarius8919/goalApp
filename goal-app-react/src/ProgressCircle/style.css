@@ -1,0 +1,16 @@
+#circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  text-align: center;
+  line-height: 200px;
+}
+
+img {
+  width: 100px;
+  display: flex;
+  margin-left: 55%;
+  margin-top: 1%;
+}
