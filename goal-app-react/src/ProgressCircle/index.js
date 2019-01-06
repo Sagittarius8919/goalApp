@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import _ from 'lodash';
+
+import Pipette from '../Images/pipette.png';
 import './style.css';
 
 class ProgressCircle extends Component {
@@ -38,7 +40,7 @@ class ProgressCircle extends Component {
 		} = this.state;
 		return (
 			<div>
-				<img src="./pipette.png" alt="pipette"/>
+				<img src={Pipette} alt="pipette"/>
 				<div
 					id="circle"
 					style={{background: `rgb(${red}, ${green}, ${blue})`}}

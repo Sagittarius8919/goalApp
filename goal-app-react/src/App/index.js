@@ -101,7 +101,6 @@ class App extends Component {
             duration = firstDuration + numberOfFullYears * DAYS_IN_YEAR + totalNumberOfFullMonths * DAYS_IN_MONTH + nextDuration;
         }
     }
-
     currGreen = CURRENT_POSITION - duration;
 		currBlue = CURRENT_POSITION - duration;
 		this.setState({
