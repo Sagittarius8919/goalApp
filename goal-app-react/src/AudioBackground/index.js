@@ -6,7 +6,7 @@ import './style.css';
 class AudioBackground extends Component {
 	render() {
 		return (
-			<audio autoplay controls loop>
+			<audio autoPlay controls loop>
 				<source src={Track} type="audio/mp3"></source>
 			</audio>
 		);
