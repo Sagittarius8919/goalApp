@@ -11,6 +11,10 @@
   top: 15px;
 }
 
+.date-now {
+  text-align: center;
+}
+
 #current-position-color {
   background: rgba(255, 235, 235);
   width: 200px;
